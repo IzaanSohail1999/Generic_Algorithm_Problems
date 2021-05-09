@@ -1,0 +1,7 @@
+sns.set_style("whitegrid")
+    plt.plot(maxFitnessValues, color='red')
+    plt.plot(meanFitnessValues, color='green')
+    plt.xlabel('population')
+    plt.ylabel('Max / Average Fitness')
+    plt.title('Max and Average Fitness over Generations \n (Max fitness = red, Average fitness = green)')
+    plt.show()
